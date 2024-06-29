@@ -1,0 +1,25 @@
+{
+    "name": "sha-phpnerd/assginment2",
+    "description": "this is a class assignment",
+    "type": "project",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "ShaPhpnerd\\Assginment2\\": "src/"
+        },
+        "files": [
+            "./utility/functions.php"
+        ]
+    },
+    "authors": [
+        {
+            "name": "Shahin Sheikh",
+            "email": "shahinsheikh.nrl@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "scripts": {
+        "start" : "php index.php"
+    }
+}
